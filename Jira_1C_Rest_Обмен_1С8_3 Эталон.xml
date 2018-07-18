@@ -2192,7 +2192,6 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>Форма</Form>
-			<Form>ФормаПросмотрПисьма</Form>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
