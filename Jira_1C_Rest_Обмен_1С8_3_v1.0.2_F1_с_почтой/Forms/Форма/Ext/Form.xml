@@ -2436,7 +2436,6 @@ _выделенный текст_
 																			<ChildItems>
 																				<InputField name="ЗаписьComments_Author_Name" id="683">
 																					<DataPath>ЗаписьComments_Author_Name</DataPath>
-																					<ReadOnly>true</ReadOnly>
 																					<SkipOnInput>true</SkipOnInput>
 																					<Title>
 																						<v8:item>
@@ -2971,6 +2970,7 @@ _выделенный текст_
 															<AutoInsertNewRow>true</AutoInsertNewRow>
 															<EnableStartDrag>true</EnableStartDrag>
 															<EnableDrag>true</EnableDrag>
+															<DataPath>Объект.JiraЗапросAttacments</DataPath>
 															<RowFilter xsi:nil="true"/>
 															<ContextMenu name="JiraЗапросAttacmentsКонтекстноеМеню" id="729"/>
 															<AutoCommandBar name="JiraЗапросAttacmentsКоманднаяПанель" id="730">
@@ -3014,6 +3014,7 @@ _выделенный текст_
 															</SearchControlAddition>
 															<ChildItems>
 																<LabelField name="JiraЗапросAttacmentsНомерСтроки" id="741">
+																	<DataPath>Объект.JiraЗапросAttacments.LineNumber</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="JiraЗапросAttacmentsНомерСтрокиКонтекстноеМеню" id="742"/>
 																	<ExtendedTooltip name="JiraЗапросAttacmentsНомерСтрокиРасширеннаяПодсказка" id="743"/>
@@ -3022,11 +3023,13 @@ _выделенный текст_
 																	<ExtendedTooltip name="JiraЗапросAttacmentsГруппа1РасширеннаяПодсказка" id="769"/>
 																	<ChildItems>
 																		<InputField name="JiraЗапросAttacmentsid" id="744">
+																			<DataPath>Объект.JiraЗапросAttacments.id</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentsidКонтекстноеМеню" id="745"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentsidРасширеннаяПодсказка" id="746"/>
 																		</InputField>
 																		<InputField name="JiraЗапросAttacmentsmimeType" id="747">
+																			<DataPath>Объект.JiraЗапросAttacments.mimeType</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentsmimeTypeКонтекстноеМеню" id="748"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentsmimeTypeРасширеннаяПодсказка" id="749"/>
@@ -3034,11 +3037,13 @@ _выделенный текст_
 																	</ChildItems>
 																</ColumnGroup>
 																<InputField name="JiraЗапросAttacmentsthumbnail" id="750">
+																	<DataPath>Объект.JiraЗапросAttacments.thumbnail</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="JiraЗапросAttacmentsthumbnailКонтекстноеМеню" id="751"/>
 																	<ExtendedTooltip name="JiraЗапросAttacmentsthumbnailРасширеннаяПодсказка" id="752"/>
 																</InputField>
 																<InputField name="JiraЗапросAttacmentsauthor_name" id="753">
+																	<DataPath>Объект.JiraЗапросAttacments.author_name</DataPath>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="JiraЗапросAttacmentsauthor_nameКонтекстноеМеню" id="754"/>
 																	<ExtendedTooltip name="JiraЗапросAttacmentsauthor_nameРасширеннаяПодсказка" id="755"/>
@@ -3047,11 +3052,13 @@ _выделенный текст_
 																	<ExtendedTooltip name="JiraЗапросAttacmentsГруппа2РасширеннаяПодсказка" id="771"/>
 																	<ChildItems>
 																		<InputField name="JiraЗапросAttacmentscreated" id="756">
+																			<DataPath>Объект.JiraЗапросAttacments.created</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentscreatedКонтекстноеМеню" id="757"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentscreatedРасширеннаяПодсказка" id="758"/>
 																		</InputField>
 																		<InputField name="JiraЗапросAttacmentsfilename" id="759">
+																			<DataPath>Объект.JiraЗапросAttacments.filename</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentsfilenameКонтекстноеМеню" id="760"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentsfilenameРасширеннаяПодсказка" id="761"/>
@@ -3062,11 +3069,13 @@ _выделенный текст_
 																	<ExtendedTooltip name="JiraЗапросAttacmentsГруппа3РасширеннаяПодсказка" id="773"/>
 																	<ChildItems>
 																		<InputField name="JiraЗапросAttacmentsself" id="765">
+																			<DataPath>Объект.JiraЗапросAttacments.self</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentsselfКонтекстноеМеню" id="766"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentsselfРасширеннаяПодсказка" id="767"/>
 																		</InputField>
 																		<InputField name="JiraЗапросAttacmentscontent" id="762">
+																			<DataPath>Объект.JiraЗапросAttacments.content</DataPath>
 																			<EditMode>EnterOnInput</EditMode>
 																			<ContextMenu name="JiraЗапросAttacmentscontentКонтекстноеМеню" id="763"/>
 																			<ExtendedTooltip name="JiraЗапросAttacmentscontentРасширеннаяПодсказка" id="764"/>
